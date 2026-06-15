@@ -1,20 +1,46 @@
 # boot-tool
-simple boot tool for updating grub and initramfs
 
-HOW TO INSTALL
+A simple CLI tool for updating GRUB and initramfs.
 
-1) wget https://github.com/ziya-celebi/boot-tool/edit/main.boottool.lua
-   
-2) Open a terminal
+## Installation
 
-3) Navigate into folder that script exist
-   cd /path/to/folder
+### Download the script
 
-4) Install the tool:
-   install -Dm755 boottool.lua ~/.local/bin/boottool
+Using wget:
 
-5) (Optional) Ensure ~/.local/bin is in your PATH:
-   export PATH="$HOME/.local/bin:$PATH"
+```bash
+wget https://raw.githubusercontent.com/ziya-celebi/boot-tool/main/boottool.lua
+```
 
-6) Run the tool:
-   boottool
+Or clone the repository:
+
+```bash
+git clone https://github.com/ziya-celebi/boot-tool.git
+cd boot-tool
+```
+
+### Install
+
+```bash
+install -Dm755 boottool.lua ~/.local/bin/boottool
+```
+
+### Ensure ~/.local/bin is in your PATH
+
+```bash
+export PATH="$HOME/.local/bin:$PATH"
+```
+
+To make this permanent, add the command above to your shell configuration file (for example, ~/.bashrc or ~/.zshrc).
+
+## Usage
+
+Run:
+
+```bash
+boottool
+```
+
+## License
+
+GPL-3.0-or-later
