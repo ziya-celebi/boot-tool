@@ -2,7 +2,7 @@
 
 A simple CLI tool for updating GRUB and initramfs.
 
-## Installation
+## Installation 
 
 ### Download the script
 
