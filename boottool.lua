@@ -18,10 +18,3 @@ while true do
 		print("INVALID OPTION")
 	end
 end
-print("DO YOU WANT CLEANUP? y/n")
-local answer = io.read("*l")
-
-if answer == "y" then
-	local dir = io.popen("pwd"):read("*l")
-	os.execute("rm -rf " .. dir)
-end
