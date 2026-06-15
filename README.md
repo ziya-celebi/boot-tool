@@ -2,12 +2,13 @@
 simple boot tool for updating grub and initramfs
 
 HOW TO INSTALL
-1) Extract the compressed folder
 
+1) wget https://github.com/ziya-celebi/boot-tool/edit/main.boottool.lua
+   
 2) Open a terminal
 
-3) Navigate into the extracted folder:
-   cd /path/to/extracted-folder
+3) Navigate into folder that script exist
+   cd /path/to/folder
 
 4) Install the tool:
    install -Dm755 boottool.lua ~/.local/bin/boottool
