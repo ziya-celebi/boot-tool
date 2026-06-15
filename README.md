@@ -6,13 +6,7 @@ A simple CLI tool for updating GRUB and initramfs.
 
 ### Download the script
 
-Using wget:
-
-```bash
-wget https://raw.githubusercontent.com/ziya-celebi/boot-tool/main/boottool.lua
-```
-
-Or clone the repository:
+Clone the repository:
 
 ```bash
 git clone https://github.com/ziya-celebi/boot-tool.git
