@@ -25,7 +25,7 @@ install -Dm755 boottool.lua ~/.local/bin/boottool
 export PATH="$HOME/.local/bin:$PATH"
 ```
 
-To make this permanent, add the command above to your shell configuration file (for example, ~/.bashrc or ~/.zshrc).
+To make this permanent run the command above
 
 ## Usage
 
